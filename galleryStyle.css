@@ -1,0 +1,293 @@
+main {
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#sectionNav {
+  position: sticky;
+  top: 30vh;
+  width: 20vw;
+  padding-top: 1.8rem;
+  height: calc(100vh - 30vh);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+
+  overflow-y: auto;
+  z-index: 500;
+
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+#sectionNav::-webkit-scrollbar {
+  display: none;
+}
+#sectionContent {
+  width: 80vw;
+  color: rgb(255, 255, 255);
+}
+#sectionNav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+  width: 100%;
+}
+#sectionNav ul li {
+  padding: 1rem;
+}
+#sectionNav ul li a {
+  font-size: 1rem;
+}
+#MuchaGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: rgb(116, 200, 255, 0.5);
+  border: solid black;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+#MuchaGallery div p,
+#MonetGallery div p,
+#MatejkoGallery div p,
+#daVinciGallery div p,
+#PicassoGallery div p,
+#RembrandtGallery div p,
+#DaliGallery div p,
+#vanGoghGallery div p {
+  font-size: 2rem;
+  font-weight: 900;
+}
+#MuchaGallery > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+#MuchaGallery img {
+  height: 400px;
+  width: auto;
+  object-fit: contain;
+  max-width: 100%;
+  border-radius: 8px;
+}
+#MonetGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: rgb(116, 200, 255, 0.5);
+  border: solid black;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+#MonetGallery > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+#MonetGallery img {
+  height: 200px;
+  width: auto;
+  object-fit: contain;
+  max-width: 100%;
+  border-radius: 8px;
+}
+#MatejkoGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: rgb(116, 200, 255, 0.5);
+  border: solid black;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+#MatejkoGallery > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+#MatejkoGallery img {
+  height: 210px;
+  width: auto;
+  object-fit: contain;
+  max-width: 100%;
+  border-radius: 8px;
+}
+#daVinciGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: rgb(116, 200, 255, 0.5);
+  border: solid black;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+#daVinciGallery > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+#daVinciGallery img {
+  height: 220px;
+  width: auto;
+  object-fit: contain;
+  max-width: 100%;
+  border-radius: 8px;
+}
+#PicassoGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: rgb(116, 200, 255, 0.5);
+  border: solid black;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+#PicassoGallery > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+#PicassoGallery img {
+  height: 230px;
+  width: auto;
+  object-fit: contain;
+  max-width: 100%;
+  border-radius: 8px;
+}
+#RembrandtGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: rgb(116, 200, 255, 0.5);
+  border: solid black;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+#RembrandtGallery > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+#RembrandtGallery img {
+  height: 230px;
+  width: auto;
+  object-fit: contain;
+  max-width: 100%;
+  border-radius: 8px;
+}
+#DaliGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: rgb(116, 200, 255, 0.5);
+  border: solid black;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+#DaliGallery > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+#DaliGallery img {
+  height: 230px;
+  width: auto;
+  object-fit: contain;
+  max-width: 100%;
+  border-radius: 8px;
+}
+#vanGoghGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: rgb(116, 200, 255, 0.5);
+  border: solid black;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+#vanGoghGallery > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+#vanGoghGallery img {
+  height: 230px;
+  width: auto;
+  object-fit: contain;
+  max-width: 100%;
+  border-radius: 8px;
+}
+#MuchaGallery img:hover,
+#MonetGallery img:hover,
+#MatejkoGallery img:hover,
+#daVinciGallery img:hover,
+#PicassoGallery img:hover,
+#RembrandtGallery img:hover,
+#DaliGallery img:hover,
+#vanGoghGallery img:hover {
+  cursor: pointer;
+}
+video {
+  width: 50vw;
+  height: auto;
+  border: solid black;
+  border-radius: 20px;
+}
+
+.image-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  cursor: zoom-out;
+}
+
+.fullscreen-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
